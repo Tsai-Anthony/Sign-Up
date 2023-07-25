@@ -1,15 +1,70 @@
-#main-container{
+#main-container {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	justify-content: center;
 }
 
-#form-section{
-	max-width: 40%;
+#form-section {
+	width: 577px;
+	padding: 0px 16px;
 }
 
-#name-section{
+#name-section {
 	display: flex;
-
 }
+
+#first-name-container {
+	margin-right: 24px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#actions-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+}
+
+#signup {
+	margin-right: -8px;
+}
+
+#terms-and-conditions-container {
+	margin-top: 32px;
+}
+
+#terms-and-conditions-container > p {
+	text-align: center;
+}
+
+#signup {
+  background-color: #3498db; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 16px; 
+  border-radius: 5px; 
+}
+
+
+#signup:hover {
+  background-color: #2980b9;
+}
+
+#terms-and-conditions-container p {
+  color: #888; 
+}
+
+#form-description {
+    color: #888; 
+    font-size: 14px; 
+ }
+ 

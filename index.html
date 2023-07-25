@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bora Presentation Sign Up</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Batch10 Signup Page</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-	<div id="main-container">
-		<div id="form-section">	
-			<p>SIGNUP</p>
-			<h5>Create an account</h5>
-			<p>Fill out the form  to get started</p>
-		</div>
-			<div id="first-name-container">
-				<p>Enter your first name</p>
-				<input type="text" name="first name " id="first-name" placeholder="first name*">
-			</div>
-		<div id="last-name-container"></div>
-				<p>Enter your last name</p>
-				<input type="text" name="last name " id="last-name" placeholder="last name*">
-		<div id="image-section">
-			<img src="coolboy_480.png" alt="Image">
-		</div>
-	</div>
+    <div id="main-container">
+        <div id="form-section">
+            <p id="form-description">SIGNUP</p>
+            <h2>Create an account</h2>
+            <p id="form-description">Fill out the form to get started.</p>
+            <div id="name-section" class="full-width">
+                <div id="first-name-container" class="full-width">
+                    <p>Enter your first name</p>
+                    <input class="full-width" type="text" name="first-name" id="first-name" placeholder="First name *" style="font-size: 22px;">
+                </div>
+                <div id="last-name-container" class="full-width">
+                    <p>Enter your last name</p>
+                    <input class="full-width" type="text" name="last-name" id="last-name" placeholder="Last name *" style="font-size: 22px;">
+                </div>
+            </div>
+            <div id="email-container" class="full-width">
+                <p>Enter your email</p>
+                <input class="full-width" type="email" name="email" id="email" placeholder="Email *" style="font-size: 22px;">
+            </div>
+            <div id="password-container" class="full-width">
+                <p>Enter your password</p>
+                <input class="full-width" type="password" name="password" id="password" placeholder="Password *" style="font-size: 22px;">
+            </div>
+            <div id="actions-container">
+                <p>Already have an account? <a href="/">Login.</a></p>
+                <button id="signup">Sign up</button>
+            </div>
+            <div id="terms-and-conditions-container">
+                <p id="terms-text">By clicking "Sign up" button you agree with our <a href="/">company terms and conditions.</a></p>
+            </div>
+        </div>
+        <div id="image-section">
+            <img src="./coolBoy_480.png">
+        </div>
+    </div>
 </body>
 </html>
